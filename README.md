@@ -1,1 +1,1 @@
-# food-store
+# Eddie's
