@@ -479,7 +479,6 @@ p {
 
 .project img {
   display: block;
-  width: 100%;
 }
 
 .project .list {
@@ -1464,8 +1463,6 @@ p {
   margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
-
-  /* width: calc(100% / 3 - 30px); */
 }
 .card-style:not(:last-child) {
   margin-right: 20px;
