@@ -34,7 +34,7 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Studio</title>
+    <title>Eddie's Store</title>
   </head>
   <body>
     <!----------------------Шапка------------------------->
@@ -81,8 +81,68 @@
             >
           </li>
         </ul>
+        <button type="button" class="mob-menu-close-button" data-menu-open>
+          <svg class="mob-menu-open-icon" width="40" height="40">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
-      
+       <!-- -----Mobile window----- -->
+
+      <div class="mob-menu" data-menu>
+        <div class="container mob-menu-container">
+          <button type="button" class="mob-menu-close-button" data-menu-close>
+            <svg class="mob-menu-close-icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+          <nav class="mob-menu-navigation">
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link current" href="./index.html">Студия</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mob-menu-bottom">
+            <div class="mob-menu-contacts">
+              <ul class="mob-contacts-list list">
+                <li class="mob-contacts-item">
+                  <a class="mob-contacts-tel" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+                <li class="mob-contacts-item">
+                  <a class="mob-contacts-mail" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="mob-menu-social">
+              <ul class="mob-social-list list">
+                <li class="mob-social-item">
+                  <a href="" class="mob-social-link">Instagram</a>
+                </li>
+                <li class="mob-social-item">
+                  <a href="" class="mob-social-link">Twitter</a>
+                </li>
+                <li class="mob-social-item">
+                  <a href="" class="mob-social-link">Facebook</a>
+                </li>
+                <li class="mob-social-item">
+                  <a href="" class="mob-social-link">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -248,7 +308,7 @@ Saturday 8am-6pm</h1>
         <article class="swiper-slide">
           <h3 class="visually-hidden">Slide 1</h3>
           <picture class="customers-pictures" >
-            <img class="customer-img" src="./images/wedd.jpg" alt="girl1" width="800px" height="350px"/>
+            <img class="customer-img" src="./images/wedd.jpg" alt="girl1" width="800px" height="400px"/>
           </picture>
           <div class="customers-wrap">
             <div class="customers-view">
@@ -266,7 +326,7 @@ Saturday 8am-6pm</h1>
 
           <picture class="customers-pictures">
       
-            <img class="customer-img" src="./images/img11.jpg" alt="girl1" width="800px" height="350px"/>
+            <img class="customer-img" src="./images/img11.jpg" alt="girl1" width="800px" height="400px"/>
           </picture>
           <div class="customers-wrap">
             <div class="customers-view">
@@ -283,7 +343,7 @@ Saturday 8am-6pm</h1>
           <h3 class="visually-hidden">Slide 3</h3>
           <picture class="customers-pictures">
             
-            <img  src="./images/img12.jpg" alt="girl1" width="800px" height="350px"/>
+            <img  src="./images/img12.jpg" alt="girl1" width="800px" height="400px"/>
             
           </picture>
           <div class="customers-wrap">
@@ -299,6 +359,35 @@ Saturday 8am-6pm</h1>
     </div>
   </div>
 </section>
+
+<section class="towar-section">
+  <div class="container">
+    <h4 class="meat-text">​​OUR NITRATE FREE, GLUTEN FREE PRODUCTS ARE ALSO HORMONE AND ANTIBIOTIC FREE</h4>
+    <ul class="meat-list list">
+      <li class="meet-item">
+        <img src="./images/main-slides/img-1.png" alt="slide" width="250px" height="250px">
+      </li>
+            <li class="meet-item">
+        <img src="./images/main-slides/img-2.png" alt="slide" width="250px" height="250px">
+      </li>
+            <li class="meet-item">
+        <img src="./images/main-slides/img-3.png" alt="slide" width="250px" height="250px">
+      </li>
+            <li class="meet-item">
+        <img src="./images/main-slides/img-4.png" alt="slide" width="250px" height="250px">
+      </li>
+            <li class="meet-item">
+        <img src="./images/main-slides/img-5.png" alt="slide" width="250px" height="250px">
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+
+
+
+
       <section class="project section" >
         <div class="container">
           <h2 class="section-title">What can you find in our store?</h2>
@@ -679,17 +768,17 @@ Saturday 8am-6pm</h1>
 </div>
     <!-- Модальне вікно -->
 
-    <div class="backdrop is-hidden" data-modal>
+       <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button data-modal-close type="button" class="modal-close-icon">
-          <svg class="close-icon">
+        <button data-modal-close type="button" class="modal-button">
+          <svg class="modal-close-icon">
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-        <form class="modal-field-form" autocomplete="off">
+        <form class="modal-form" autocomplete="off">
           <label class="modal-label" for="user-name">Имя</label>
-          <div class="modal-field-font">
+          <div class="modal-field">
             <input
               type="text"
               class="modal-input"
@@ -701,7 +790,7 @@ Saturday 8am-6pm</h1>
             </svg>
           </div>
           <label class="modal-label" for="user-tel">Телефон</label>
-          <div class="modal-field-font">
+          <div class="modal-field">
             <input
               type="tel"
               class="modal-input"
@@ -713,7 +802,7 @@ Saturday 8am-6pm</h1>
             </svg>
           </div>
           <label class="modal-label" for="user-email">Почта</label>
-          <div class="modal-field-font">
+          <div class="modal-field">
             <input
               type="email"
               class="modal-input"
@@ -738,31 +827,32 @@ Saturday 8am-6pm</h1>
           <div class="modal-conditions">
             <input
               type="checkbox"
-              class="input-conditions visually-hidden"
-              id="input-conditions"
+              class="checkbox-input is-hidden"
+              id="checkbox-input"
               name="policy"
               value="policy"
             />
-            <label for="input-conditions" class="conditions-text">
+            <label for="checkbox-input" class="checkbox-text">
               <span>
-                <svg class="check-icon" width="11px" height="8px">
+                <svg class="checkbox-icon" width="11px" height="8px">
                   <use href="./images/symbol-defs.svg#icon-vector"></use>
                 </svg>
               </span>
               Соглашаюсь с рассылкой и принимаю &nbsp;
-              <a class="check-link" href="#">Условия договора</a></label
+              <a class="checkbox-link" href="#">Условия договора</a></label
             >
           </div>
-          <button type="submit" class="check-button">Отправить</button>
+          <button type="submit" class="checkbox-button">Отправить</button>
         </form>
       </div>
-    </div>
+      </div>
     
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/box.js"></script>
     <script src="./js/scroll.js"></script>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>

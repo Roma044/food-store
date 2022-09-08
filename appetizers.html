@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="Shortcut Icon"
+      href="/images/main-logo.png"
+      type="image / x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +28,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Studio</title>
   </head>
@@ -75,11 +91,220 @@
         </ul>
       </div>
     </header>
-    <main>
-      <section>
-        <div class="container"></div>
-      </section>
-    </main>
+    <div class="main">
+      <h4 class="appet-title">Appetizers and Cold Favourites</h4>
+      <ul class="cards-main">
+        <li class="cards-wrap">
+          <div class="card-field">
+            <div class="card-img">
+              <img
+                src="./images/appet/img-1.jpg"
+                width="400px"
+                height="300px"
+              />
+            </div>
+            <div class="card_content">
+              <h2 class="card_title">Shrimp Platter</h2>
+              <p class="card_text">Price - $60 serves 10 ( 20 pc)</p>
+              <!-- <button class="btn card_btn">Read More</button> -->
+            </div>
+          </div>
+        </li>
+
+        <li class="cards-wrap">
+          <div class="card-field">
+            <div class="card-img">
+              <img
+                src="./images/appet/img-2.jpg"
+                width="400px"
+                height="300px"
+              />
+            </div>
+            <div class="card_content">
+              <h2 class="card_title">Stuffed Avocado with Crab</h2>
+              <p class="card_text">Price - $6.00 (min 10)</p>
+              <!-- <button class="btn card_btn">Read More</button> -->
+            </div>
+          </div>
+        </li>
+        <li class="cards-wrap">
+          <div class="card-field">
+            <div class="card-img">
+              <img
+                src="./images/appet/img-3.jpg"
+                width="400px"
+                height="300px"
+              />
+            </div>
+            <div class="card_content">
+              <h2 class="card_title">Mini “Zapiekanki” or Bruschetta Trays</h2>
+              <p class="card_text">Price - $40.00 (20 pieces)</p>
+              <!-- <button class="btn card_btn">Read More</button> -->
+            </div>
+          </div>
+        </li>
+        <li class="cards-wrap">
+          <div class="card-field">
+            <div class="card-img">
+              <img
+                src="./images/appet/img-4.jpg"
+                width="400px"
+                height="300px"
+              />
+            </div>
+            <div class="card_content">
+              <h2 class="card_title">Beef Tartar</h2>
+              <p class="card_text">Price - $8 (min10)</p>
+              <!-- <button class="btn card_btn">Read More</button> -->
+            </div>
+          </div>
+        </li>
+        <li class="cards-wrap">
+          <div class="card-field">
+            <div class="card-img">
+              <img
+                src="./images/appet/img-5.jpg"
+                width="400px"
+                height="300px"
+              />
+            </div>
+            <div class="card_content">
+              <h2 class="card_title">
+                Salmon Tartar </br>(With Green Onion and Baguette)
+              </h2>
+              <p class="card_text">Price- $90 Serves 10-12</p>
+              <!-- <button class="btn card_btn">Read More</button> -->
+            </div>
+          </div>
+        </li>
+        <li class="cards-wrap">
+          <div class="card-field">
+            <div class="card-img">
+              <img
+                src="./images/appet/img-1.jpg"
+                width="400px"
+                height="300px"
+              />
+            </div>
+            <div class="card_content">
+              <h2 class="card_title">Card Grid Layout</h2>
+              <p class="card_text">
+                Demo of pixel perfect pure CSS simple responsive card grid
+                layout
+              </p>
+              <!-- <button class="btn card_btn">Read More</button> -->
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+<div class="container">
+      <h4 class="cake-text">Appetizers and Cold Favourites Price</h4>
+    
+<table class="table table-bordered">
+  <thead class="table-success">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">Kinds and Other Information</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr >
+      <th scope="row ">1</th>
+      <td>Shrimp Platter</td>
+      <td>$60</td>
+      <td>Serves 10</td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">2</th>
+      <td>Stuffed Avocado with Crab</td>
+      <td>$6.00 (min 10)</td>
+      <td>(min 10)</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td >Grilled Jalepeno Poppers Stuffed with </br> Garlic Cream Cheese Wrapped in Bacon</td>
+      <td>$60.00</td>
+      <td>(30 Pieces)</td>
+    </tr>
+        <tr class="table-active">
+      <th scope="row">4</th>
+      <td>Mini “Galaretki” Chicken or Pork Aspic</td>
+      <td>$4</td>
+      <td>(min 10)</td>
+    </tr>
+        <tr>
+      <th scope="row">5</th>
+      <td>Mini “Zapiekanki” or Bruschetta Trays</td>
+      <td>$40.00</td>
+      <td>(20 Pieces)</td>
+    </tr>
+        <tr class="table-active">
+      <th scope="row">6</th>
+      <td>Potato Pancakes</td>
+      <td>$2</td>
+      <td></td>
+    </tr>
+        <tr>
+      <th scope="row">7</th>
+      <td>Fried Pierogies</td>
+      <td>$1 each Minimum 20</td>
+      <td>(4 Flavours, Sour Cream and Onions on the Side)</td>
+    </tr>
+        <tr class="table-active">
+      <th scope="row">8</th>
+      <td>Beef Tartar</td>
+      <td>$8 (min10)</td>
+      <td>(Marinated Veggies, Onions, Egg Yolk on the side with Baguette)</td>
+    </tr>    <tr>
+      <th scope="row">9</th>
+      <td>Salmon Tartar</td>
+      <td>$90 Serves 10-12</td>
+      <td>(With Green Onion and Baguette)</td>
+    </tr>
+        <tr class="table-active">
+      <th scope="row">10</th>
+      <td>Wagon Wheel Tray with Chicken or Tuna</td>
+      <td>$50 </td>
+      <td>(30 Pieces)</td>
+    </tr>
+            <tr>
+      <th scope="row">11</th>
+      <td>Wrap Tray</td>
+      <td>$60 (16 Pieces)</td>
+      <td>(Turkey or Ham with Cheese and Veggies)</td>
+    </tr>
+            <tr class="table-active">
+      <th scope="row">12</th>
+      <td>Sandwich Tray</td>
+      <td>$70 (15 halves or 30 quarters)</td>
+      <td>(Assorted Deli Meats Cheese and Veggies)</td>
+    </tr>
+            <tr>
+      <th scope="row">13</th>
+      <td>Charcuterie board</td>
+      <td>$10 /per portion</td>
+      <td>(Minimum 8)</td>
+    </tr>
+            <tr class="table-active">
+      <th scope="row">14</th>
+      <td>Puff Pastry</td>
+      <td>$14.99/lb</td>
+      <td>With Meat, Sauerkraut and Mushroom or Spinach and Feta</td>
+    </tr>
+            <tr >
+      <th scope="row">15</th>
+      <td>Crepes Stuffed</td>
+      <td>$4/each</td>
+      <td>with Sauerkraut and Mushroom, Meat or Feta Spinach</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <h3 class="made_by">Made with ♡</h3>
+
     <!--Address and phone number-->
     <!--Address and phone number-->
     <footer class="footer-section">
@@ -156,6 +381,21 @@
         </div>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/box.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
 
