@@ -290,7 +290,6 @@ p {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
   background-image: url(../images/main-img.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -982,11 +981,14 @@ span {
   text-decoration: none;
   margin-bottom: 30px;
   color: black;
-  background: linear-gradient(to bottom left, #7ff550 40%, #faf8f7 100%);
+  border: 2px solid var(--color-1);
+  /* background: linear-gradient(to bottom left, #7ff550 40%, #faf8f7 100%); */
 
   transition: box-shadow 250ms var(--timing-function);
 }
-
+.trays-img {
+  width: 100%;
+}
 /* .appet-list .appet-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -1037,11 +1039,11 @@ span {
 }
 
 .trays-price {
-  color: black;
+  color: var(--primary-white-color);
   text-align: center;
   font-size: 18px;
-  border: 2px solid green;
-  background-color: wheat;
+  border: 2px solid var(--color-1);
+  background-color: var(--color-1);
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
