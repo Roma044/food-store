@@ -284,12 +284,13 @@ p {
 
 .hero-page {
   max-width: 1600px;
-  height: 600px;
+  height: 670px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+
   background-image: url(../images/main-img.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -740,6 +741,230 @@ p {
 .fish-img {
   width: 100%;
   height: 250px;
+}
+
+/* ----------------------------------SALADS AND SIDES------------------ */
+
+.appet-button {
+  margin-right: auto;
+  font-size: 14px;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #121111;
+}
+
+.appet-button:hover {
+  background-color: black;
+  color: white;
+}
+.salad-section {
+  padding-bottom: 94px;
+}
+
+.salad-item .salad-link:hover,
+.salad-item .salad-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.salad-item:hover,
+.salad-item:focus {
+  transform: scale(1.1);
+}
+
+.salad img {
+  display: block;
+}
+
+.salad-item {
+  /* flex-basis: 370px; */
+  margin-right: 45px;
+
+  transition: transform 1s;
+}
+
+.salad-link {
+  width: 270px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  border: 2px solid var(--main-text-color);
+  /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+  transition: box-shadow 250ms var(--timing-function);
+}
+
+/* .appet-list .appet-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.appet-list .appet-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+} */
+
+.salad-list .salad-text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  /* padding-right: 24px; */
+  /* padding-left: 24px; */
+
+  /* border: 1px solid var(--border-color);
+  border-top: transparent; */
+}
+
+.salad-img {
+  width: 100%;
+}
+
+.salad-list .salad-title {
+  margin-bottom: 4px;
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.salad-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.salad-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.salad-list .salad-price .list {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.salad-price {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--color-1);
+  background-color: var(--color-1);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* -----------------------------------DESSERTS----------------------------- */
+
+.dessert-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 34px;
+  color: var(--main-text-color);
+}
+
+.dessert-item .dessert-link:hover,
+.dessert-item .dessert-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.dessert-item:hover,
+.dessert-item:focus {
+  transform: scale(1.1);
+}
+
+.dessert-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dessert-item {
+  /* flex-basis: 370px; */
+  margin-right: 20px;
+
+  transition: transform 1s;
+}
+
+.dessert-link {
+  width: 360px;
+  height: 430px;
+  display: block;
+
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  border: 2px solid var(--main-text-color);
+  /* background: linear-gradient(to bottom left, #7ff550 40%, #faf8f7 100%); */
+
+  transition: box-shadow 250ms var(--timing-function);
+}
+
+.dessert-list .dessert-text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.dessert-list .entrees-title {
+  margin-bottom: 4px;
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.dessert-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dessert-list {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dessert-list .dessert-price .list {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.dessert-price-humb {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--color-1);
+  background-color: var(--color-1);
+  border-radius: 20px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.dessert-price {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--color-1);
+  background-color: var(--color-1);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.dessert-img {
+  width: 100%;
+  height: 280px;
 }
 
 /*--------------------------Appetaizers---------------------- */
@@ -2757,7 +2982,7 @@ span {
 }
 
 section {
-  padding: 1rem 0;
+  padding: 4rem 0;
 }
 section.top-products {
   background: #f0f0f0;
@@ -2883,6 +3108,7 @@ section.top-products .food-slider .food-card button:hover {
   left: 50%;
   transform: translateX(-50%);
 }
+
 /* END-SLIDER-SECTION */
 
 /* -------------------------------------Bakery-Page------------------------------------- */
@@ -3027,11 +3253,11 @@ td {
   background: -o-linear-gradient(left, #d3cbb8, #6d6027);
   background: linear-gradient(to right, #d3cbb8, #6d6027);
 } */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   body {
     display: block;
   }
-}
+} */
 
 /* --------------------------------------Стрілка Вверх----------------------- */
 
@@ -3279,70 +3505,4 @@ td {
 
 .team img {
   display: block;
-}
-/* 
-body {
-	background-color: #fafafa;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	margin: 0;
-	transition: background 0.2s linear;
-} */
-
-.toogle {
-  margin-left: auto;
-}
-
-body.dark {
-  background: #292c35;
-  color: white;
-}
-
-.checkbox {
-  opacity: 0;
-  position: absolute;
-}
-
-.label {
-  background-color: #111;
-  border-radius: 50px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px;
-  position: relative;
-  height: 20px;
-  width: 34px;
-  transform: scale(1.5);
-}
-
-.label .ball {
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  height: 15px;
-  width: 15px;
-  transform: translateX(0px);
-  transition: transform 0.2s linear;
-}
-
-.checkbox:checked + .label .ball {
-  transform: translateX(15px);
-}
-
-.bi-moon-fill {
-  color: #f1c40f;
-  width: 10px;
-  height: 10px;
-}
-
-.bi-sun-fill {
-  color: #f39c12;
-  width: 10px;
-  height: 10px;
 }

@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
     <link
       rel="Shortcut Icon"
@@ -28,13 +32,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
- <link
+    <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Studio</title>
   </head>
@@ -54,12 +56,25 @@
             />
           </a>
           <ul class="nav-list list">
-            <li class="item"><a href="index.html" class="link">Home</a></li>
+            <li class="item">
+              <a href="index.html" class="link">Home</a>
+            </li>
             <li class="item"><a href="about.html" class="link">About</a></li>
             <li class="item">
-              <a href="menu.html" class="link current">Works</a>
+              <a href="menu.html" class="link">Catering Menu</a>
             </li>
-            <li class="item"><a href="" class="link">Contacts</a></li>
+            <li class="item">
+              <a href="events.html" class="link">Special Events</a>
+            </li>
+            <li class="item">
+              <a href="rentals.html" class="link">Rentals</a>
+            </li>
+            <li class="item">
+              <a href="news.html" class="link">Newst Flyers</a>
+            </li>
+            <li class="item">
+              <a href="contacts.html" class="link">Contacts</a>
+            </li>
           </ul>
         </nav>
         <ul class="contact-list list">
@@ -80,11 +95,107 @@
         </ul>
       </div>
     </header>
-    <main>
-      <h1 class="snack-title">
-        HERE MUST BE YOUR TEXT AND PHOTOS Niezależna dziewczyna =)
-      </h1>
-    </main>
+    <section class="entrees-section">
+      <div class="entrees-container container">
+        <div>
+          <a href="menu.html">
+            <button class="appet-button">
+              <i class="bi bi-arrow-left-circle-fill"></i>Get back
+            </button></a
+          >
+          <h4 class="dessert-title">Desserts</h4>
+        </div>
+        <ul class="dessert-list list">
+          <li class="dessert-item">
+            <a href="" class="dessert-link">
+              <div class="dessert-wrap">
+                <img
+                  class="dessert-img"
+                  src="./images/dessert/des-3.jpg"
+                  alt="Boxes"
+                  width="270"
+                  height="210"
+                />
+              </div>
+              <div class="dessert-text">
+                <h2 class="dessert-name">Assorted Pastries Trays</h2>
+                <p class="dessert-price">
+                  Price - $6 per person (2 Pieces Each)
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="dessert-item">
+            <a href="" class="dessert-link">
+              <div class="dessert-wrap">
+                <img
+                  class="dessert-img"
+                  src="./images/dessert/des-1.jpg"
+                  alt="Boxes"
+                  width="270"
+                  height="210"
+                />
+              </div>
+              <div class="dessert-text">
+                <h2 class="dessert-name">Assorted Pastries Trays Deluxe</h2>
+                <p class="dessert-price">Price - $8/pp</p>
+              </div>
+            </a>
+          </li>
+          <li class="dessert-item">
+            <a href="" class="dessert-link">
+              <div class="dessert-wrap">
+                <img
+                  class="dessert-img"
+                  src="./images/dessert/des-2.jpg"
+                  alt="Boxes"
+                  width="270"
+                  height="210"
+                />
+              </div>
+              <div class="dessert-text">
+                <h2 class="dessert-name">Strawberries In chocolate</h2>
+                <p class="dessert-price">Price - $2 /each</p>
+              </div>
+            </a>
+          </li>
+          <li class="dessert-item">
+            <a href="" class="dessert-link">
+              <div class="dessert-wrap">
+                <img
+                  class="dessert-img"
+                  src="./images/dessert/des-4.jpg"
+                  alt="Boxes"
+                  width="270"
+                  height="210"
+                />
+              </div>
+              <div class="dessert-text">
+                <h2 class="dessert-name">Sweet Crepes</h2>
+                <p class="dessert-price">Price - $30.00</p>
+              </div>
+            </a>
+          </li>
+          <li class="dessert-item">
+            <a href="" class="dessert-link">
+              <div class="dessert-wrap">
+                <img
+                  class="dessert-img"
+                  src="./images/dessert/des-5.jpg"
+                  alt="Boxes"
+                  width="270"
+                  height="210"
+                />
+              </div>
+              <div class="dessert-text">
+                <h2 class="dessert-name">Mini Meringue</h2>
+                <p class="dessert-price">Price - $60 (20 pieces)</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <!--Address and phone number-->
     <footer class="footer-section">
@@ -161,5 +272,30 @@
         </div>
       </div>
     </footer>
+    <div class="scroll-up">
+      <svg class="scroll-up___svg" viewBox="-2 -2 52 52">
+        <path
+          class="scroll-up___svg-path"
+          d="M24,0 
+      a24, 24 0 0,1 0,48
+      a24, 24 0 0,1 0,-48"
+        ></path>
+      </svg>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/box.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
