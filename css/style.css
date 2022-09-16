@@ -1708,7 +1708,7 @@ span {
 
 .rent-item {
   /* flex-basis: 370px; */
-  margin-right: 65px;
+  margin-right: 30px;
 
   transition: transform 1s;
 }
@@ -1724,8 +1724,8 @@ span {
 }
 
 .rent-link {
-  width: 320px;
-  height: 420px;
+  width: 280px;
+  height: 380px;
   display: block;
 
   text-decoration: none;
@@ -1751,6 +1751,9 @@ span {
 .rent-list {
   display: flex;
   flex-wrap: wrap;
+  width: calc(100% / 4 -30px);
+  justify-content: center;
+  align-items: center;
 }
 
 .rent-list .rent-price .list {
@@ -3202,17 +3205,17 @@ span {
 
 .deli-text {
   text-align: center;
-
+  color: var(--color-1);
   margin-bottom: 40px;
   font-weight: bold;
   font-size: 34px;
-  background: rgb(255, 252, 252);
+  /* background: rgb(255, 252, 252);
   background: linear-gradient(
     90deg,
     rgba(255, 252, 252, 1) 0%,
     rgba(161, 251, 203, 1) 71%,
     rgba(255, 255, 255, 1) 100%
-  );
+  ); */
   /* padding: 20px; */
 }
 
@@ -3253,17 +3256,18 @@ span {
 
 .butcher-text {
   text-align: center;
+  color: var(--color-1);
   margin-top: 40px;
   margin-bottom: 40px;
   font-weight: bold;
   font-size: 34px;
-  background: rgb(255, 255, 255);
+  /* background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(235, 228, 195, 1) 70%,
     rgba(243, 245, 250, 1) 100%
-  );
+  ); */
 }
 
 section {
@@ -3399,17 +3403,18 @@ section.top-products .food-slider .food-card button:hover {
 /* -------------------------------------Bakery-Page------------------------------------- */
 .bakery-text {
   text-align: center;
+  color: var(--color-1);
   margin-top: 40px;
   margin-bottom: 55px;
   font-weight: bold;
   font-size: 34px;
-  background: rgb(255, 255, 255);
+  /* background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(8, 57, 4, 0.7455357142857143) 70%,
     rgba(243, 245, 250, 1) 100%
-  );
+  ); */
 }
 
 .bakery-btn {
@@ -3481,18 +3486,19 @@ td {
 }
 /* --------------------------------------Take-Out Page------------------------------------ */
 .take-text {
+  color: var(--color-1);
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
   font-weight: bold;
   font-size: 34px;
-  background: rgb(255, 252, 252);
+  /* background: rgb(255, 252, 252);
   background: linear-gradient(
     90deg,
     rgba(255, 252, 252, 1) 0%,
     rgba(235, 175, 76, 1) 66%,
     rgba(255, 255, 255, 1) 100%
-  );
+  ); */
 }
 
 /* -----------------------------------------Seasonal Products - Page---------------------------------- */
@@ -3502,13 +3508,14 @@ td {
   margin-bottom: 40px;
   font-weight: bold;
   font-size: 34px;
-  background: rgb(255, 252, 252);
+  color: var(--color-1);
+  /* background: rgb(255, 252, 252);
   background: linear-gradient(
     90deg,
     rgba(255, 252, 252, 1) 0%,
     rgba(163, 55, 28, 0.835171568627451) 66%,
     rgba(255, 255, 255, 1) 100%
-  );
+  ); */
 }
 
 /* .card-img-top {
