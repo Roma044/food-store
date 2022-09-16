@@ -1695,57 +1695,96 @@ span {
 }
 
 /* --------------------------RENTALS SECTION-------------------- */
-.rentals {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 390px;
+.rent-item .rent-link:hover,
+.rent-item .rent-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.rent-item:hover,
+.beef-item:focus {
+  transform: scale(1.1);
+}
+
+.rent-item {
+  /* flex-basis: 370px; */
+  margin-right: 65px;
+
+  transition: transform 1s;
+}
+
+.rent-title {
+  color: var(--color-1);
+  margin-top: 50px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.rent-link {
+  width: 320px;
+  height: 420px;
+  display: block;
+
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  border: 2px solid var(--main-text-color);
+  /* background: linear-gradient(to bottom left, #7ff550 40%, #faf8f7 100%); */
+
+  transition: box-shadow 250ms var(--timing-function);
+}
+
+.rent-list .rent-text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.rent-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .rent-list {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
 }
 
-.rent-item {
-  /* background-color: var(--main-page-background-color);  запасний варіант */
-  background: var(--primary-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  margin-bottom: 30px;
-}
-
-.rent-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.rent {
-  background-color: var(--third-button-color);
-}
-
-.rent-name {
-  color: var(--main-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-}
-
-.rent-name {
-  margin-bottom: 10px;
-}
-
-.rent-position {
+.rent-list .rent-price .list {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+  line-height: 1.87;
 }
 
-.rent img {
-  display: block;
+.rent-price-humb {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--color-1);
+  background-color: var(--color-1);
+  border-radius: 20px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.rent-price {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--color-1);
+  background-color: var(--color-1);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.rent-img {
+  width: 100%;
+  height: 250px;
 }
 
 /* --------------------------Команда-------------------------- */
@@ -2392,7 +2431,7 @@ span {
   margin-bottom: 50px;
   margin-top: 20px;
   text-align: center;
-  color: var(--main-text-color);
+  color: var(--color-1);
   font-weight: bold;
   font-size: 34px;
   /* background: linear-gradient(
