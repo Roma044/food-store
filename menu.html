@@ -28,6 +28,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
  <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -85,22 +92,96 @@
         </ul>
       </div>
     </header>
-    <main>
-      <section class="portfolio-section">
-        <div class="container">
+    
+     
+        <div class="container-menu">
         <h1 class="visually-hidden">Наши работы</h1>
         <ul class="list-btn list">
-          <li class="item"><a href="./doc/menu.pdf" type="button" target="blank" class="button-main active">Our Menu</a></li>
-          <li class="item"><a href="appetizers.html" type="button" class="button-main active">Appetizers</a></li>
-          <li class="item"><a href="hot.html" type="button" class="button-main">Entrees (Meets and Fish)</a></li>
-          <li class="item"><a href="salads.html" type="button" class="button-main">Salads and Sides</a></li>
-              <li class="item"><a href="soups.html" type="button" class="button-main">Soups</a></li>
-          <li class="item"><a href="baking.html" type="button" class="button-main">Desserts</a></li>
-          <li class="item"><a href="trays.html" type="button" class="button-main">Trays</a></li>
-          <li class="item"><a href="canapes.html" type="button" class="button-main">Special Occasions</a></li>
+  
+          <li class="item"><a href="appetizers.html" type="button" class="button-main active">Appetizers <i class="fa-solid fa-circle-right"></i></a></li>
+          <li class="item"><a href="hot.html" type="button" class="button-main">Entrees (Meets and Fish) <i class="fa-solid fa-circle-right"></i></a></li>
+          <li class="item"><a href="salads.html" type="button" class="button-main">Salads and Sides <i class="fa-solid fa-circle-right"></i></a></li>
+              <li class="item"><a href="soups.html" type="button" class="button-main">Soups <i class="fa-solid fa-circle-right"></i></a></li>
+          <li class="item"><a href="baking.html" type="button" class="button-main">Desserts <i class="fa-solid fa-circle-right"></i></a></li>
+                <li class="item"><a href="cake.html" type="button" class="button-main">Cakes <i class="fa-solid fa-circle-right"></i></a></li>
+          <li class="item"><a href="trays.html" type="button" class="button-main">Trays <i class="fa-solid fa-circle-right"></i></a></li>
+    
           
         </ul>
-        <ul class="example-us list">
+              </section>
+    </main>
+
+
+      <div class="container">
+        <!-- <div class="menu-main-pict"> 
+        <img class="menu-pict" src="./images/menu/menu-1.jpg" alt="menu">
+         <img class="menu-pict" src="./images/menu/menu-6.jpg" alt="menu">
+         <img class="menu-pict" src="./images/menu/menu-3.jpg" alt="menu">
+          <img class="menu-pict" src="./images/menu/menu-4.jpg" alt="menu">
+           <img class="menu-pict" src="./images/menu/menu-5.jpg" alt="menu">
+            <img class="menu-pict" src="./images/menu/menu-2.jpg" alt="menu">
+            </div> -->
+            <table class="container" align="center" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;margin:0 auto;">
+  
+    <tr>
+        <td align="center" style="text-align: center; vertical-align: top; font-size: 0;">
+            <article id="slider">	
+				<input checked type="radio" name="slider" id="slide1" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;" />
+				<input type="radio" name="slider" id="slide2" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;"/>
+				<input type="radio" name="slider" id="slide3" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;" />
+				<input type="radio" name="slider" id="slide4" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;" />article
+				<input type="radio" name="slider" id="slide5" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;" />
+				<div id="slides">	
+					<div id="overflow">			
+						<div class="inner">											
+							<article>
+
+								<img class="menu-slide" src="./images/menu/menu-1.jpg" style="display:block;margin:0 auto;border:0;" alt="Highlight 1" /><span class="noWebkit" style="line-height:20px;height:20px;"><br/>&nbsp;<br/></span></a>
+							</article>
+							<article>
+
+								<img src="./images/menu/menu-6.jpg" style="display:block;margin:0 auto;border:0;" alt="Highlight 2" /><span class="noWebkit" style="line-height:20px;height:20px;"><br/>&nbsp;<br/></span></a>
+							</article>
+							<article>
+	<img class="menu-slide" src="./images/menu/menu-4.jpg" style="display:block;margin:0 auto;border:0;" alt="Highlight 3" /><span class="noWebkit" style="line-height:20px;height:20px;"><br/>&nbsp;<br/></span></a>
+							</article>
+							<article>
+								
+								<img class="menu-slide" src="./images/menu/menu-5.jpg" style="display:block;margin:0 auto;border:0;" alt="Highlight 4" /><span class="noWebkit" style="line-height:20px;height:20px;"><br/>&nbsp;<br/></span></a>
+							</article>
+            
+							<article>
+								
+							<img class="menu-slide" src="./images/menu/menu-3.jpg" style="display:block;margin:0 auto;border:0;" alt="Highlight 5" /></a>
+							</article>
+							</a>			
+						</div>				
+					</div>		
+				</div>	
+				<div id="controls">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
+					<label for="slide4"></label>			
+					<label for="slide5"></label>
+				</div>
+				<div id="active">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
+					<label for="slide4"></label>
+					<label for="slide5"></label>			
+				</div>	
+			</article> 			
+        </td>
+    </tr>
+<tr>
+  <td style="line-height:40px;height:40px;" height="40">&nbsp;</td>
+</tr>
+</table>
+      </div>
+   
+        <!-- <ul class="example-us list">
           <li class="item">
             <a href="" class="example-link">
               <div class="example-text-wrap">
@@ -209,9 +290,8 @@
               </div> 
             </a>
           </li>
-        </ul>
-      </section>
-    </main>
+        </ul> -->
+
 <!--Address and phone number-->
     <footer class="footer-section">
       <div class="container footer-container">
