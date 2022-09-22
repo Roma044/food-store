@@ -4599,6 +4599,269 @@ span {
 } */
 
 /* ---------------------WEDDING--------------------- */
-.video-wedding {
+.wedding-button {
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #121111;
+}
+
+.wedding-button:hover {
+  background-color: black;
+  color: white;
+}
+.weding-section {
+  padding-top: 110px;
+  padding-bottom: 120px;
+}
+
+.weding-container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.video-weding {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin-top: 70px;
+}
+
+.wed-img {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: -7px;
+  left: 16px;
+}
+.wed-img3 {
+  position: absolute;
+
+  width: 370px;
+  height: 350px;
+  top: 320px;
+  left: 50px;
+}
+.wed-img1 {
+  width: 370px;
+  height: 320px;
+  position: absolute;
+  top: -7px;
+  right: 16px;
+}
+
+.wed-img2 {
+  width: 320px;
+  height: 380px;
+  position: absolute;
+  top: 290px;
+  right: 100px;
+}
+
+/* -------------------------------Banquets--------------------------- */
+
+.banq-title {
+  font-size: 34px;
+  font-weight: bold;
+  color: var(--color-1);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.banque-container {
+  display: flex;
+  padding-top: 20px;
+}
+
+.banq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  /* padding: 50px; */
+}
+
+.button-banq {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 20px 5px;
+  color: black;
+  font-size: 2rem;
+}
+
+.button-banq span {
+  position: relative;
+  display: inline-block;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+
+.previous:hover span {
+  transform: translateX(-10px) scale(1.2);
+}
+
+.next:hover span {
+  transform: translateX(10px) scale(1.2);
+}
+
+.slider-banq ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-banq li {
+  display: flex;
+  flex: 2;
+  text-align: center;
+}
+
+.slide-pic {
+  max-width: 100%;
+  height: 500px;
+  display: none;
+  box-shadow: 10px 10px 20px 0 rgba(94, 47, 59, 0.2);
+}
+
+img.active {
+  display: block;
+  animation: fadeImg 0.8s;
+}
+
+.slider-banq .arrow {
+  flex: 0 0 15%;
+}
+
+.slider-banq a {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-banq span {
+  display: block;
+  width: 100%;
+}
+
+@keyframes fadeImg {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* --------------------------------BIRTHDAY SECTION---------------------------- */
+/* .birthd-container {
+  display: flex;
+}
+.birthd-card {
+  position: relative;
+
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.birthd-img {
+  width: 600px;
+  height: 400px;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 900;
+
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(140, 22, 115, 0.2);
+}
+
+.card_part {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+
+  transform: translateX(700px);
+
+  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+}
+
+.card_part.card_part-two {
+  z-index: 6;
+  animation-delay: 7s;
+}
+
+.card_part.card_part-three {
+  z-index: 5;
+
+  animation-delay: 14s;
+}
+
+.card_part.card_part-four {
+  z-index: 4;
+
+  animation-delay: 21s;
+}
+
+@keyframes opaqTransition {
+  3% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  28% {
+    transform: translateX(-700px);
+  }
+  100% {
+    transform: translateX(-700px);
+  }
+} */
+
+.birthd-section {
+  padding-top: 100px;
+}
+
+.birthd-img {
+  width: 640px;
+  height: 500px;
+  border-radius: 20px;
+}
+.birthd-container {
+  display: flex;
+  align-items: center;
 }
