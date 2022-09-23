@@ -2149,7 +2149,12 @@ span {
 
 .footer-section {
   padding: 20px 0;
-  background-color: rgb(114, 161, 158);
+  background: linear-gradient(
+    90deg,
+    rgba(182, 153, 85, 1) 0%,
+    rgba(201, 168, 91, 1) 46%,
+    rgba(248, 214, 138, 1) 79%
+  );
 }
 
 .logo {
@@ -2601,6 +2606,48 @@ span {
   transform: translateY(0%);
 }
 
+/* ----------------------------------SPECIAL EVENTS SECTION---------------- */
+.what-are-we-doing {
+  padding-top: 124px;
+  padding-bottom: 94px;
+}
+.event-title {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-1);
+}
+.ul-wawd {
+  display: flex;
+  justify-content: center;
+}
+.ul-wawd li:not(:last-child) {
+  margin-right: 30px;
+}
+.img-list {
+  position: relative;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 70px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: #fff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 /* ---------------------------------Приклади робіт------------------- */
 
 .example-us .item {
@@ -4599,6 +4646,11 @@ span {
 } */
 
 /* ---------------------WEDDING--------------------- */
+
+.fa-circle-right {
+  margin-left: 10px;
+}
+
 .wedding-button {
   margin-bottom: 40px;
   margin-left: auto;
