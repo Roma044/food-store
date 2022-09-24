@@ -59,6 +59,16 @@ body {
   background-attachment: fixed;
   height: 100vh; */
 }
+/* @media screen and (max-width: 992px){
+  body{
+    background-color: red;
+  }
+}
+@media screen and (max-width: 644px){
+  body{
+    background-color: red;
+  }
+} */
 
 /* Scroll to top Styling */
 /* Scroll to top Styling */
@@ -2947,6 +2957,17 @@ span {
 .about-wrap {
   display: flex;
 }
+/* @media screen and (max-width: 1085px) {
+  .about-wrap {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-wrap {
+    display: block;
+  }
+} */
 
 .about-text {
   max-width: 710px;
@@ -4917,3 +4938,132 @@ img.active {
   display: flex;
   align-items: center;
 }
+
+/* ----------------------------------------NEW FOOTER---------------------------------- */
+/* .footer {
+  width: 100%;
+  background: #00121b;
+  display: block;
+}
+
+.inner-footer {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-items {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.footer-pic {
+  margin-top: 100px;
+}
+
+.footer-items p {
+  color: grey;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.footer-text {
+  margin: 10px 0;
+  color: grey;
+  font-size: 16px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.border {
+  height: 2px;
+  width: 40px;
+  background: #ff9800;
+}
+
+.footer-menu {
+  list-style: none;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer-menu a:hover {
+  color: #ff9800;
+}
+
+.footer-menu li {
+  margin: 10px 0;
+  height: 25px;
+}
+
+.footer-icon {
+  margin-right: 10px;
+}
+
+.social-media {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media i { */
+/* height: 15px;
+  width: 15px;
+  margin: 20px 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+  transition: 0.3s; */
+/* display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.social-media i:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.footer-bottom {
+  padding: 10px;
+  background: #3d545f;
+  color: #fff;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1085px) {
+  .footer-items {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-items {
+    width: 100%;
+  }
+} */
