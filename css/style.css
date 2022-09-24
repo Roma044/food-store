@@ -2157,7 +2157,7 @@ span {
 
 /* --------------------------Footer-------------------------- */
 
-.footer-section {
+/* .footer-section {
   padding: 20px 0;
   background: linear-gradient(
     90deg,
@@ -2206,11 +2206,11 @@ span {
   color: var(--primary-white-color);
 
   transition: color 250ms var(--timing-function);
-}
+} */
 
 /* ----------------------------ПРИСОЕДИНЯЙТЕСЬ ICONS-------------------------- */
 
-.footer-container {
+/* .footer-container {
   display: flex;
   align-items: baseline;
 }
@@ -2259,11 +2259,11 @@ span {
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: var(--accent-color);
-}
+} */
 
 /* -----------------------------Footer-4------------------------------ */
 
-.foot4 {
+/* .foot4 {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -2300,7 +2300,7 @@ span {
 .manzil {
   display: flex;
   gap: 15px;
-}
+} */
 
 /* --------------------------Portfolio------------Кнопки-------------- */
 .container-menu {
@@ -3074,7 +3074,7 @@ span {
 }
 /* -----------------------------Contacts----------------------------------------- */
 
-.contacts-section {
+/* .contacts-section {
   background-image: linear-gradient(
       to right,
       rgba(4, 4, 4, 0.4),
@@ -3086,20 +3086,19 @@ span {
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-}
+} */
 
 .map-title {
-  color: var(--primary-white-color);
+  color: var(--color-1);
+  font-weight: bold;
   align-items: center;
   text-align: center;
   margin-top: 40px;
   font-size: 34px;
 }
 
-.map-title:hover,
-.map-title:focus {
-  color: orange;
-  cursor: pointer;
+.hours {
+  margin-left: auto;
 }
 
 .map-section {
@@ -3107,17 +3106,26 @@ span {
   display: flex;
 }
 
+.contact-title {
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
 .contact-text {
   margin-left: 50px;
-  margin-top: 70px;
+  margin-top: 20px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  line-height: 3;
   letter-spacing: 0.03em;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .deliv-picture {
   margin-left: 40px;
+  margin-top: 100px;
 }
 
 .contact-button {
@@ -3145,6 +3153,8 @@ span {
   line-height: 1.86;
 
   cursor: pointer;
+  align-items: center;
+  text-align: center;
 }
 
 .contact-button:hover,
@@ -4689,7 +4699,7 @@ span {
   background-color: black;
   color: white;
 }
-.weding-section {
+/* .weding-section {
   padding-top: 110px;
   padding-bottom: 120px;
 }
@@ -4737,6 +4747,23 @@ span {
   position: absolute;
   top: 290px;
   right: 100px;
+} */
+.wedding-section {
+  padding-top: 100px;
+}
+
+.video-wedding {
+  margin-right: 100px;
+}
+
+.wedding-img {
+  width: 740px;
+  height: 500px;
+  border-radius: 20px;
+}
+.wedding-container {
+  display: flex;
+  align-items: center;
 }
 
 /* -------------------------------Banquets--------------------------- */
@@ -4929,8 +4956,12 @@ img.active {
   padding-top: 100px;
 }
 
+.video-birthd {
+  margin-right: 100px;
+}
+
 .birthd-img {
-  width: 640px;
+  width: 740px;
   height: 500px;
   border-radius: 20px;
 }
@@ -4940,7 +4971,7 @@ img.active {
 }
 
 /* ----------------------------------------NEW FOOTER---------------------------------- */
-/* .footer {
+.footer {
   width: 100%;
   background: #00121b;
   display: block;
@@ -5024,8 +5055,8 @@ img.active {
   text-decoration: none;
 }
 
-.social-media i { */
-/* height: 15px;
+.social-media i {
+  /* height: 15px;
   width: 15px;
   margin: 20px 5px;
   padding: 10px;
@@ -5033,7 +5064,7 @@ img.active {
   border-radius: 50%;
   border: 1px solid grey;
   transition: 0.3s; */
-/* display: inline-block;
+  display: inline-block;
   height: 40px;
   width: 40px;
   margin: 0 10px 10px 0;
@@ -5054,6 +5085,9 @@ img.active {
   background: #3d545f;
   color: #fff;
   font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 1085px) {
@@ -5066,4 +5100,4 @@ img.active {
   .footer-items {
     width: 100%;
   }
-} */
+}
